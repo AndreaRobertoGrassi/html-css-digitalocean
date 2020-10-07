@@ -1,10 +1,7 @@
 /* DEBUG */
 [class*="col-"]{
   min-height: 100px;
-  border: 1px solid black;
-}
-header{
-  background-color: blue;
+  /* border: 1px solid black; */
 }
 main{
   background-color: red;
@@ -13,3 +10,69 @@ footer{
   background-color: green;
 }
 /* DEBUG */
+
+/* HEADER */
+/* nav */
+.navbar-default{
+  background-color: white;
+}
+.navbar{
+  margin-bottom: 0;
+}
+.navbar-brand img{
+  width: 18%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: auto;
+  transform: translateY(-50%);
+}
+/* jumbotron */
+#jumbo{
+  background-image: url('../img/home.jpg');
+  background-size: cover;
+  color: white;
+  padding:30px 0;
+}
+/* form */
+form{
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+form h2{
+  color: black;
+  text-align: center;
+}
+form .titolo-blue{
+  color: blue;
+  padding-top: 0;
+  margin-top: 0;
+}
+.form-group{
+  margin-bottom: 0;
+}
+.btn-default{
+  position: relative;
+}
+.btn-block + .btn-block{
+  margin-top: 10px;
+}
+.btn-primary{
+background-color: #5b94c4;
+margin-top: 15px;
+}
+#google-icon{
+  width: 30px;
+  height: auto;
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* MAIN */
+/* section loghi */
+.loghi{
+  background-color: #f3f5f9;
+}
