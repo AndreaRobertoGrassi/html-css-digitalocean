@@ -3,12 +3,6 @@
   /* min-height: 100px; */
   /* border: 1px solid black; */
 }
-main{
-  background-color: red;
-}
-footer{
-  background-color: green;
-}
 /* DEBUG */
 
 /* HEADER */
@@ -88,4 +82,55 @@ margin-top: 15px;
   font-weight: bold;
   color: #356ae7;;
   text-decoration: none;
+}
+
+/* section deploy */
+#deploy{
+  padding: 20px 0 40px;
+}
+#deploy .lista ul{
+  list-style: none;
+  border-left: 1px solid black;
+  padding-left: 10px;
+}
+#deploy .lista li{
+  margin-bottom: 15px;
+}
+#deploy .lista{
+  display: inline-block;
+  margin: 20px 15px;
+}
+#deploy .lista a{
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+}
+
+/* section dsign-dev */
+#design-dev{
+  background-color: #f3f5f9;
+  padding: 30px 5px;
+}
+#design-dev h1{
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+#design-dev .text-design{
+  font-size: 25px;
+  color: grey;
+  margin-bottom: 100px;
+}
+#design-dev img{
+  width: 60%;
+  height: auto;
+}
+#design-dev .text-img{
+  margin-top: 10px;
+}
+
+/* section business */
+#business h1{
+  text-align: center;
+  font-weight:bold;
+
 }
