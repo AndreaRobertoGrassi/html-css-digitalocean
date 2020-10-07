@@ -1,0 +1,15 @@
+/* DEBUG */
+[class*="col-"]{
+  min-height: 100px;
+  border: 1px solid black;
+}
+header{
+  background-color: blue;
+}
+main{
+  background-color: red;
+}
+footer{
+  background-color: green;
+}
+/* DEBUG */
