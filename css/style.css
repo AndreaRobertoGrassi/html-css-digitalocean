@@ -195,3 +195,45 @@ margin-top: 15px;
 #started-now .btn{
   padding: 8px 14px;
 }
+
+/* FOOTER */
+footer{
+  background-color: #010129;
+  padding-top: 30px;
+  color: #909090;
+  font-size: 18px;
+}
+footer .indirizzo{
+  margin-top: 10px;
+  font-size: 20px;
+}
+footer span{
+  font-size:18px;
+  color: #7a7a7a;
+}
+footer .social-icon-footer i{
+  font-size: 25px;
+  margin: 20px 20px 20px 0;
+  color: #909090;
+}
+footer ul{
+  margin-top: 10px;
+  padding-left: 0;
+}
+footer ul li:first-child a{
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+footer li{
+  list-style:none;
+  margin-bottom: 10px;
+}
+footer li a{
+  text-decoration:none;
+  color: #7a7a7a;
+}
+footer a:hover, a:focus{
+  text-decoration: none;
+  color: white;
+}
