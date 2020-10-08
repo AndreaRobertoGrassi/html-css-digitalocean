@@ -15,18 +15,84 @@
       <!-- nav -->
       <nav class="navbar navbar-default">
         <div class="container-fluid">
+
+          <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">
-              <img alt="Brand" src="img/logo.png">
-            </a>
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
+            <a class="navbar-brand" href="#">
+              <img src="img/logo.png" alt="">
+            </a>
           </div>
-        </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+            <!-- link a sinistra -->
+            <ul class="nav navbar-nav">
+
+              <!-- dropdown -->
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Product <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+
+              <!-- link -->
+              <li><a href="#">Customer</a></li>
+
+              <!-- dropdown -->
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Community <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+
+              <!-- link -->
+              <li><a href="#">Pricing</a></li>
+            </ul>
+
+            <!-- link a destra -->
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Docs</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Login</a></li>
+
+              <!-- bottone -->
+              <form class="navbar-form navbar-left">
+                <button type="submit" class="btn btn-default">Sign Up</button>
+              </form>
+
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
       </nav>
 
       <!-- jumbotron -->
@@ -34,12 +100,12 @@
         <div class="container-fluid">
           <div class="row">
 
-            <div class="col-xs-12 col-md-8">
+            <div class="col-xs-12 col-md-8 col-lg-6">
               <h1>The simplest cloud platform for developers &amp; teams</h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
 
-            <div class="col-xs-12 col-md-4">
+            <div class="col-xs-12 col-md-4 col-lg-6">
 
               <form>
                 <h2>Deploy you app in seconds.</h2>
@@ -47,11 +113,11 @@
 
                 <div class="form-group">
                   <label for="exampleInputEmail1">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" required>
                 </div>
                 <div class="form-group">
                   <label for="exampleInputPassword1">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
                 </div>
 
                 <button type="button" class="btn btn-primary btn-lg btn-block">Create your account</button>
@@ -119,44 +185,47 @@
             </div>
           </div>
 
-          <div class="row centratura">
-            <!-- lista -->
-
-            <ul>
-              <li><a href="#">Deploy</a></li>
-              <li><a href="#">Manage</a></li>
-              <li><a href="#">Secure</a></li>
-              <li><a href="#">Scale</a></li>
-              <li><a href="#">Monitor</a></li>
-            </ul>
-
+          <div class="centratura">
             <div class="row">
-              <div class="col-xs-12 col-md-4 col-md-offset-2">
-                <img src="img/cluster-deploy.svg" alt="">
-                <h4>Cluster deployments</h4>
-                <p>Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI; or directly against our API</p>
+              <!-- lista -->
+
+              <ul>
+                <li><a href="#">Deploy</a></li>
+                <li><a href="#">Manage</a></li>
+                <li><a href="#">Secure</a></li>
+                <li><a href="#">Scale</a></li>
+                <li><a href="#">Monitor</a></li>
+              </ul>
+
+              <div class="row">
+                <div class="col-xs-12 col-md-4 col-md-offset-2">
+                  <img src="img/cluster-deploy.svg" alt="">
+                  <h4>Cluster deployments</h4>
+                  <p>Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI; or directly against our API</p>
+                </div>
+
+                <div class="col-xs-12 col-md-4">
+                  <img src="img/optimized-compute.svg" alt="">
+                  <h4>Optimized computes types</h4>
+                  <p>Get the compute resources you need with standard or Optimized droplets</p>
+                </div>
+
+                <div class="col-xs-12 col-md-4 col-md-offset-2">
+                  <img src="img/one-click.svg" alt="">
+                  <h4>One-click apps</h4>
+                  <p>Skip the install and configuration process with pre-built open source images supporting Rails, Cassandra, Docker and more</p>
+                </div>
+
+                <div class="col-xs-12 col-md-4 ">
+                  <img src="img/global.svg" alt="">
+                  <h4>Global availability</h4>
+                  <p>Deploy to any of our data center ragions around the world.</p>
+                </div>
               </div>
 
-              <div class="col-xs-12 col-md-4">
-                <img src="img/optimized-compute.svg" alt="">
-                <h4>Optimized computes types</h4>
-                <p>Get the compute resources you need with standard or Optimized droplets</p>
-              </div>
-
-              <div class="col-xs-12 col-md-4 col-md-offset-2">
-                <img src="img/one-click.svg" alt="">
-                <h4>One-click apps</h4>
-                <p>Skip the install and configuration process with pre-built open source images supporting Rails, Cassandra, Docker and more</p>
-              </div>
-
-              <div class="col-xs-12 col-md-4 ">
-                <img src="img/global.svg" alt="">
-                <h4>Global availability</h4>
-                <p>Deploy to any of our data center ragions around the world.</p>
-              </div>
             </div>
-
           </div>
+
 
         </div>
 
@@ -224,7 +293,7 @@
             </div>
 
             <!-- tabelle -->
-            <div class="col-xs-12">
+            <div class="col-xs-12 col-lg-6">
               <table class="table">
                 <tr>
                   <th>AMS2</th>
@@ -260,7 +329,7 @@
               </table>
             </div>
 
-            <div class="col-xs-12">
+            <div class="col-xs-12 col-lg-6">
               <table class="table">
                 <tr>
                   <th>AMS2</th>
@@ -338,7 +407,7 @@
     <footer>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-xs-12">
+          <div class="col-xs-12 col-lg-4">
 
             <img src="img/logo-small.svg" alt="">
 
@@ -356,7 +425,7 @@
             </div>
 
           </div>
-          <div class="col-xs-12 col-md-6">
+          <div class="col-xs-12 col-md-6 col-lg-2">
             <ul>
               <li><a href="#">Company</a></li>
               <li><a href="#">About</a></li>
@@ -371,7 +440,7 @@
               <li><a href="#">Legal &amp; Security</a></li>
             </ul>
           </div>
-          <div class="col-xs-12 col-md-6">
+          <div class="col-xs-12 col-md-6 col-lg-2 ">
             <ul>
               <li><a href="#">Products</a></li>
               <li><a href="#">Droplets</a></li>
@@ -387,7 +456,7 @@
               <li><a href="#">Release Notes</a></li>
             </ul>
           </div>
-          <div class="col-xs-12 col-md-6">
+          <div class="col-xs-12 col-md-6 col-lg-2">
             <ul>
               <li><a href="#">Community</a></li>
               <li><a href="#">Tutorials</a></li>
@@ -402,7 +471,7 @@
               <li><a href="#">Open Source</a></li>
             </ul>
           </div>
-          <div class="col-xs-12 col-md-6">
+          <div class="col-xs-12 col-md-6 col-lg-2">
             <ul>
               <li><a href="#">Support</a></li>
               <li><a href="#">Contact Support</a></li>

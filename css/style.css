@@ -13,6 +13,13 @@ header .navbar-default{
 header .navbar{
   margin-bottom: 0;
 }
+
+header .navbar-brand {
+  width: 230px;
+}
+header .navbar-nav > li > a{
+  padding: 15px 10px;
+}
 header .navbar-brand img{
   width: 150px;
   height: auto;
@@ -21,6 +28,7 @@ header .navbar-brand img{
   left: auto;
   transform: translateY(-50%);
 }
+
 /* jumbotron */
 #jumbo{
   background-image: url('../img/home.jpg');
@@ -95,10 +103,7 @@ margin-top: 15px;
 
 /* section deploy */
 #deploy{
-  padding: 20px 0 40px;
-}
-#deploy .centratura{
-  padding: 20px;
+  padding: 20px 0px 40px;
 }
 #deploy p{
   font-size: 20px;
@@ -108,6 +113,7 @@ margin-top: 15px;
   border-left: 1px solid black;
   padding-left: 10px;
   float: left;
+  margin-left: 20px;
 }
 #deploy ul li{
   margin: 25px 0;
@@ -254,21 +260,34 @@ footer a:hover, a:focus{
 
 
 
-@media (min-width: 992px) and (max-width: 1199px){
+@media (min-width: 992px){
   /* HEADER */
   #jumbo form p{
-    font-size: 18px;
+    font-size: 16px;
   }
-
+  #deploy .centratura{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+  }
   /* MAIN */
   /* section deploy */
   #deploy{
     padding: 20px 30px 40px;
   }
-  #deploy .centratura{
-    padding: 50px;
+
+
+@media (min-width: 1200px){
+  /* REGOLE GENERALI */
+  nav, #jumbo,#loghi,#deploy,#design-dev,#business,#service-customers,#love,#started-now,footer{
+    padding-left: 10%;
+    padding-right: 10%;
   }
-  #deploy ul{
-    margin-left: 20px;
+  footer{
+    padding-top: 40px;
+    font-size: 16px;
+  }
+  footer .indirizzo{
+    font-size: 16px;
   }
 }
