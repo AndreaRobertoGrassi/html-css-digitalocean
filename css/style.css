@@ -38,6 +38,9 @@ header .navbar-brand img{
   color: black;
   text-align: center;
 }
+#jumbo p{
+  font-size: 20px;
+}
 #jumbo form .titolo-blue{
   color: blue;
   padding-top: 0;
@@ -55,6 +58,12 @@ header .navbar-brand img{
 #jumbo .btn-primary{
 background-color: #5b94c4;
 margin-top: 15px;
+}
+#jumbo form p{
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  margin: 15px 0;
 }
 #google-icon{
   width: 30px;
@@ -88,19 +97,22 @@ margin-top: 15px;
 #deploy{
   padding: 20px 0 40px;
 }
-#deploy .lista ul{
+#deploy .centratura{
+  padding: 20px;
+}
+#deploy p{
+  font-size: 20px;
+}
+#deploy ul{
   list-style: none;
   border-left: 1px solid black;
   padding-left: 10px;
+  float: left;
 }
-#deploy .lista li{
-  margin-bottom: 15px;
+#deploy ul li{
+  margin: 25px 0;
 }
-#deploy .lista{
-  display: inline-block;
-  margin: 20px 15px;
-}
-#deploy .lista a{
+#deploy ul a{
   font-size: 18px;
   color: black;
   text-decoration: none;
@@ -133,7 +145,7 @@ margin-top: 15px;
   text-align: center;
   font-weight:bold;
 }
-#business p{
+#business .margin{
   margin-bottom: 30px;
 }
 
@@ -159,7 +171,7 @@ margin-top: 15px;
 /* section love */
 #love{
   background-color: #f3f5f9;
-  padding: 30px 5px;
+  padding: 30px 10%;
 }
 #love h1{
   font-weight: bold;
@@ -187,13 +199,14 @@ margin-top: 15px;
 }
 #started-now h1{
   font-weight: bold;
+  margin-bottom: 30px;
 }
 #started-now .btn-default{
   color: #017dc7;
   font-weight: bold;
 }
 #started-now .btn{
-  padding: 8px 14px;
+  padding: 12px 18px;
 }
 
 /* FOOTER */
@@ -236,4 +249,26 @@ footer li a{
 footer a:hover, a:focus{
   text-decoration: none;
   color: white;
+}
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+  /* HEADER */
+  #jumbo form p{
+    font-size: 18px;
+  }
+
+  /* MAIN */
+  /* section deploy */
+  #deploy{
+    padding: 20px 30px 40px;
+  }
+  #deploy .centratura{
+    padding: 50px;
+  }
+  #deploy ul{
+    margin-left: 20px;
+  }
 }
