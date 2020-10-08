@@ -7,13 +7,13 @@
 
 /* HEADER */
 /* nav */
-.navbar-default{
+header .navbar-default{
   background-color: white;
 }
-.navbar{
+header .navbar{
   margin-bottom: 0;
 }
-.navbar-brand img{
+header .navbar-brand img{
   width: 150px;
   height: auto;
   position: absolute;
@@ -29,30 +29,30 @@
   padding:30px 0;
 }
 /* form */
-form{
+#jumbo form{
   background-color: white;
   border-radius: 5px;
   padding: 10px;
 }
-form h2{
+#jumbo form h2{
   color: black;
   text-align: center;
 }
-form .titolo-blue{
+#jumbo form .titolo-blue{
   color: blue;
   padding-top: 0;
   margin-top: 0;
 }
-.form-group{
+#jumbo .form-group{
   margin-bottom: 0;
 }
-.btn-default{
+#jumbo .btn-default{
   position: relative;
 }
-.btn-block + .btn-block{
+#jumbo .btn-block + .btn-block{
   margin-top: 10px;
 }
-.btn-primary{
+#jumbo .btn-primary{
 background-color: #5b94c4;
 margin-top: 15px;
 }
@@ -133,6 +133,65 @@ margin-top: 15px;
   text-align: center;
   font-weight:bold;
 }
-#business .margin{
+#business p{
   margin-bottom: 30px;
+}
+
+/* sezione service-customers */
+#service-customers{
+  background: rgb(54,89,130);
+  background: linear-gradient(0deg, rgb(11, 34, 61) 0%, rgb(24, 53, 125) 81%);
+  color: white;
+}
+#service-customers h1{
+  text-align: center;
+  font-weight: bold;
+}
+#service-customers .table{
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+#service-customers a{
+  color: #81d4ed;
+  text-decoration: none;
+}
+
+/* section love */
+#love{
+  background-color: #f3f5f9;
+  padding: 30px 5px;
+}
+#love h1{
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+#love .text-love{
+  font-size: 25px;
+  color: grey;
+}
+#love img{
+  width: 50%;
+  height: auto;
+  margin-bottom: 10px;
+}
+#love .text-img{
+  margin-top: 10px;
+}
+
+/* section started-now */
+#started-now{
+  background: rgb(54,89,130);
+  background: linear-gradient(0deg, rgb(11, 34, 61) 0%, rgb(24, 53, 125) 81%);
+  color: white;
+  padding: 30px 0 50px;
+}
+#started-now h1{
+  font-weight: bold;
+}
+#started-now .btn-default{
+  color: #017dc7;
+  font-weight: bold;
+}
+#started-now .btn{
+  padding: 8px 14px;
 }
