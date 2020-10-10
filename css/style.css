@@ -11,13 +11,11 @@ header .navbar{
 
 header .navbar-brand {
   width: 230px;
-}
-header .navbar-nav > li > a{
-  padding: 15px 10px;
+  padding-top: 10px;
 }
 header .navbar-brand img{
   width: 150px;
-  height: auto;
+  /* height: auto; */
 }
 
 /* jumbotron */
@@ -129,9 +127,12 @@ margin-top: 15px;
   color: grey;
   margin-bottom: 50px;
 }
-#design-dev img{
-  width: 50%;
+#love .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img{
+  width: 100%;
   height: auto;
+}
+#design-dev .carousel-inner{
+  width: 100%;
 }
 #design-dev .text-img{
   margin-top: 10px;
@@ -178,15 +179,17 @@ margin-top: 15px;
   font-size: 25px;
   color: grey;
 }
-#love img{
-  width: 50%;
-  height: auto;
-  margin-bottom: 10px;
-}
 #love .text-img{
   margin-top: 10px;
 }
-
+#love .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img{
+  width: 50%;
+  height: auto;
+  margin-left: 25%;
+}
+#love .carousel-inner{
+  width: 100%;
+}
 /* section started-now */
 #started-now{
   background: rgb(54,89,130);
